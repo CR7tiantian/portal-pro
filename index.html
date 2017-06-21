@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首页-前海圆周项目管理平台</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lib/elementui/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="wrapper" class="wrapper">
+        <!-- 头部 start -->
+        <div class="header cf">
+  <div class="left-logo pull-left">
+    <img src="image/logo1.png" alt="" class="header-logo">
+  </div>
+  <div class="right-nav pull-left">
+    <ul class="header-nav-list cf">
+      <li class="header-nav-item pull-left">
+        <a href="" class="link-item">首页</a>
+      </li>
+      <li class="header-nav-item pull-left">
+        <a href="" class="link-item">项目中心</a>
+      </li>
+      <li class="header-nav-item pull-left">
+        <a href="" class="link-item">开发中心</a>
+      </li>
+      <li class="header-nav-item pull-left">
+        <a href="" class="link-item">学习中心</a>
+      </li>
+      <li class="header-nav-item pull-left">
+        <a href="" class="link-item">个人中心</a>
+      </li>
+      <li class="header-nav-item pull-left">
+        <button class="login-btn">登录</button>
+      </li>
+    </ul>
+  </div>
+</div>
+        <!-- 头部 end -->
+        <!--中间主体区域 start-->
+        <div class="content">
+            <!-- 轮播图 start -->
+            <div class="slideBox">
+                <div class="bd">
+                    <ul>
+                        <li class="first-banner"></li>
+                        <li class="second-banner"></li>
+                        <li class="third-banner"></li>
+                    </ul>
+                </div>
+                <div class="hd">
+                    <ul>
+                        <li class="on"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <a class="prev" href="javascript:void(0)"></a>
+                <a class="next" href="javascript:void(0)"></a>
+            </div>
+            <!-- 轮播图 end -->
+            <div class="common-box ptys-box">
+                <h3 class="ptys-text">平台优势</h3>
+                <div class="ptys-icon-box">
+                    <el-row :gutter="30" class="ptys-icon-list">
+                        <el-col :span="4" :push="2">
+                            <div class="grid-content bg-purple">
+                                <img src="image/devtool.png" alt="" width="100%">
+                                <p class="icon-des">开发工具</p>
+                            </div>
+                        </el-col>
+                        <el-col :span="4" :push="2">
+                            <div class="grid-content bg-purple">
+                                <img src="image/kuangjia.png" alt="" width="100%">
+                                <p class="icon-des">前端框架</p>
+                            </div>
+                        </el-col>
+                        <el-col :span="4" :push="2">
+                            <div class="grid-content bg-purple">
+                                <img src="image/native.png" alt="" width="100%">
+                                <p class="icon-des">IOS/Android原生能力</p>
+                            </div>
+                        </el-col>
+                        <el-col :span="4" :push="2">
+                            <div class="grid-content bg-purple">
+                                <img src="image/auto.png" alt="" width="100%">
+                                <p class="icon-des">自动化测试工具</p>
+                            </div>
+                        </el-col>
+                        <el-col :span="4" :push="2">
+                            <div class="grid-content bg-purple">
+                                <img src="image/coui.png" alt="" width="100%">
+                                <p class="icon-des">前端框架COUI</p>
+                            </div>
+                        </el-col>
+                    </el-row>
+                </div>
+            </div>
+            <div class="common-box qdkj-box">
+                <h3 class="qdkj-text">前端框架COUI</h3>
+                <div class="qdkj-icon-box">
+                    <ul class="qdkj-icon-list cf">
+                        <li class="icon-list-item pull-left">
+                            <p>构建</p>
+                            <div class="img-box-top">
+                                <img src="image/construct1.png" alt="">
+                            </div>
+                            <div class="img-box-bottom cf">
+                                <img src="image/construct2.png" alt="" class="pull-left">
+                                <img src="image/construct3.png" alt="" class="pull-left">
+                            </div>
+                        </li>
+                        <li class="icon-list-item pull-left">
+                            <p>模块管理</p>
+                            <div class="img-box-top">
+                                <img src="image/module.png" alt="">
+                            </div>
+                        </li>
+                        <li class="icon-list-item pull-left">
+                            <p>测试</p>
+                            <div class="img-box-top">
+                                <img src="image/frame1.png" alt="">
+                            </div>
+                            <div class="img-box-bottom cf">
+                                <img src="image/frame2.png" alt="" class="pull-left">
+                                <img src="image/frame3.png" alt="" class="pull-left">
+                            </div>
+                        </li>
+                        <li class="icon-list-item pull-left">
+                            <p>文档</p>
+                            <div class="img-box-top">
+                                <img src="image/doc1.png" alt="">
+                            </div>
+                            <div class="img-box-top">
+                                <img src="image/doc2.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="common-box more-box">
+                <div class="device-text cf">
+                    <p class="ios text pull-left">iOS开发</p>
+                    <p class="android text pull-left">Android开发</p>
+                </div>
+                <ul class="device-list cf">
+                    <li class="list-item pull-left">
+                        <img src="image/dev.png" alt="">
+                    </li>
+                    <li class="list-item pull-left">
+                        <img src="image/package.png" alt="">
+                    </li>
+                    <li class="list-item pull-left">
+                        <img src="image/test.png" alt="">
+                    </li>
+                    <li class="list-item pull-left">
+                        <img src="image/publish.png" alt="">
+                    </li>
+                </ul>
+                <p class="summary">使用标准web技术开发ios，Android原生App。从开发到发布,提供全程技术支持</p>
+                <button class="more-btn">更多</button>
+            </div>
+            <div class="common-box template-box">
+                <p class="template-text">模板定制</p>
+                <el-row :gutter="20">
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple">
+                            <img src="image/template1.png" alt="" width="100%">
+                            <h3 class="tpl-title">商城类模板</h3>
+                            <p class="tpl-description">此模板提供商城类APP模板</p>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple">
+                            <img src="image/template2.png" alt="" width="100%">
+                            <h3 class="tpl-title">客户关系类模板</h3>
+                            <p class="tpl-description">此模板提供商城类APP模板，提供商品展示、商品详情、商品列表、店铺展示、购买商品等等功能，能覆盖大多数类型的电商应用</p>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple">
+                            <img src="image/template3.png" alt="" width="100%">
+                            <h3 class="tpl-title">自动化类模板</h3>
+                            <p class="tpl-description">提供商品展示、商品详情、商品列表、店铺展示、购买商品等等功能，能覆盖大多数类型的电商应用</p>
+                        </div>
+                    </el-col>
+                    <el-col :span="6">
+                        <div class="grid-content bg-purple">
+                            <img src="image/template4.png" alt="" width="100%">
+                            <h3 class="tpl-title">其他类模板</h3>
+                            <p class="tpl-description">此模板提供商城类APP模板，提供商品展示、商品详情、商品列表、店铺展示、购买商品等等功能，能覆盖大多数类型的电商应用</p>
+                        </div>
+                    </el-col>
+                </el-row>
+            </div>
+            <div class="common-box partner-box">
+                <p class="parter-text">合作伙伴</p>
+                <div class="partner-img">
+                    <img src="image/panner.png" alt="合作图" width="100%">
+                </div>
+            </div>
+        </div>
+        <!--中间主体区域 end-->
+        <!--底部 start-->
+        <div class="foot clearfix">
+  <div class="foot_nav">
+  <div class="nav_foot">
+    <p><a href="./index.html">首页</a> </p>
+    <p><a href="/">项目中心</a> </p>
+    <p><a href="/">开发中心</a> </p>
+    <p><a href="/">学习中心</a> </p>
+    <p><a href="/">个人中心</a> </p>
+  </div>
+</div>
+  <div class="foot_con">
+    <div class="foot_left">
+      <h1><a><img src="image/ewm1.jpg"></a>圆舟应用商店</h1>
+      <h1><a><img src="image/ewm2.jpg"></a>圆舟官方公众号</h1>
+    </div>
+    <div class="foot_right">
+      <div class="foot_tel" style="height:60px">
+        <p>40099-80011</p>
+      </div>
+      <h2>深圳市前海圆舟网络科技股份有限公司 版权所有 <a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备15024183号-1</a><br>
+        服务热线：40099-80011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传真：86-755-23980473<br>
+        邮箱：service@coracle.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网址：www.coracle.com<br>
+        地址：深圳市南山区科技园南区高新南一道联想研发中心1、12层</h2>
+      <div class="share">
+        <h6>分享到:</h6>
+        <ul>
+          <li class="wb"> <a></a> </li>
+          <li class="wx"> <a></a> </li>
+          <li class="gg"> <a></a> </li>
+          <li class="ff"> <a></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!--底部 end-->
+    </div>
+</body>
+<!--引入vue-->
+<script src="lib/vue/vue.js"></script>
+<!--引入ele-->
+<script src="lib/elementui/index.js"></script>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/jquery.SuperSlide.2.1.1.js"></script>
+<script>
+new Vue({
+        el: '#wrapper',
+        data: function() {
+            return {
+
+            }
+        }
+    })
+    //轮播图配置
+$(".slideBox").slide({
+    titCell: ".hd li",
+    mainCell: ".bd ul",
+    effect: "leftLoop",
+    autoPlay: true,
+    trigger: "click"
+});
+</script>
+
+</html>

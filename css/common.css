@@ -1,0 +1,28 @@
+/*清除浮动*/
+.cf:after,
+cf:before {
+  content: "";
+  display: block;
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  outline: none;
+}
+.partner-box {
+  padding: 20px;
+}
